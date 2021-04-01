@@ -584,12 +584,12 @@ const helpinfo = (msg) => {
 		return;
 	}
 	const embedColor = 0xffff00;
-	pcmds = `\`\`\`${botChar}apply, ${botChar}players, ${botChar}ip, ${botChar}help\`\`\``;
+	pcmds = `\`\`\`${botChar}server, ${botChar}players, ${botChar}ip, ${botChar}help\`\`\``;
 	acmds = `\`\`\`${botChar}setip, ${botChar}setport, ${botChar}setchannel, ${botChar}setup, ${botChar}sban, ${botChar}unban, ${botChar}clear\`\`\``;
 
     const logMessage = {
         embed: {
-            title: `Discord Bot DumbleDore Help Info`,
+            title: `DISCORD HELP CMD BY RIZKI`,
             color: embedColor,
             fields: [
 				{ name: 'Player Cmds', value: pcmds, inline: true },
