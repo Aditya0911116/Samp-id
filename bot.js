@@ -147,7 +147,7 @@ function GetPlayersOnline(msg)
 		else
 		{   
 			var str = "Server Info";
-			var value = str.concat(' IP: ',response['address'],' Players Online: ',response['online'],'/',response['maxplayers']); 
+			var value = str.concat(' Players Online: ',response['online'],'/',response['maxplayers']); 
 			const embedColor = 0x00ff00;
 
 			const logMessage = {
@@ -155,7 +155,7 @@ function GetPlayersOnline(msg)
 					title: 'Server Information',
 					color: embedColor,
 					fields: [
-						{ name: '', 'LAST INDO CITY RP' },
+						{ name: 'LAST INDO CITY RP' },
 						{ name: 'Players Online', value: response['online'], inline: true },
 						{ name: 'Max Players', value: response['maxplayers'], inline: true },
 					],
