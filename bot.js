@@ -22,7 +22,7 @@ let Community_Tag ="WG";
 
 let userToSubmitApplicationsTo = '710195458680684695';//Default Channel Id for User Applications
 let reportChannelID = '714432112031170562'; // Channel for the ingam reports
-let adminCmdsChannelID = '710195250911641741'; // Admin Cmds channel
+let adminCmdsChannelID = '821701412828086283'; // Admin Cmds channel
 let Bot_debug_mode = false;
 
 //_______________________________[APPLICATIONS]______________________________________________
@@ -155,7 +155,7 @@ function GetPlayersOnline(msg)
 					title: 'Server Information',
 					color: embedColor,
 					fields: [
-						{ name: 'Server IP', value: response['address'], inline: true },
+						{ name: 'Nama Server :', Indo Last City RP },
 						{ name: 'Players Online', value: response['online'], inline: true },
 						{ name: 'Max Players', value: response['maxplayers'], inline: true },
 					],
@@ -619,7 +619,7 @@ client.on('message', msg => {
     if (msg.content === '/ip') 
     {
 
-        msg.reply(`Server IP: ${Samp_IP}`);
+        msg.reply(`Kepo anda`);
  
     }  
     //------------------------------[Medthod 2]-------------------------------------------
@@ -639,7 +639,7 @@ client.on('message', msg => {
 			case "apply":
 				sendUserApplyForm(msg, parameters.join(" "));
 				break;
-			case "players":
+			case "server":
 				GetPlayersOnline(msg);
 				break;
 			case "cancel":
