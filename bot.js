@@ -155,7 +155,7 @@ function GetPlayersOnline(msg)
 					title: 'Server Information',
 					color: embedColor,
 					fields: [
-						{ name: 'Nama Server :', Indo Last City RP },
+						{ name: 'LAST INDO CITY RP' },
 						{ name: 'Players Online', value: response['online'], inline: true },
 						{ name: 'Max Players', value: response['maxplayers'], inline: true },
 					],
